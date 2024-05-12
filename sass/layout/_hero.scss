@@ -1,0 +1,9 @@
+.hero-section {
+  background-image: linear-gradient(
+      rgba($color-black, 0.5),
+      rgba($color-black, 0.5)
+    ),
+    url(../img/hero-img.jpg);
+  background-size: cover;
+  background-position: center;
+}

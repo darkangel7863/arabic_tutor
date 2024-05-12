@@ -1,0 +1,36 @@
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: $color-primary;
+  color: $color-white;
+  font-size: 2.5rem;
+  a {
+    &:link,
+    &:visited {
+      color: $color-white;
+      transition: all 0.3s;
+    }
+
+    &:hover {
+      color: $color-secondary;
+      // transform: translateY(-0.3rem) skewX(22deg) scale(1.5);
+      box-shadow: 0 2rem 2rem rgba($color-white, 0.7);
+    }
+  }
+  &__contact {
+    margin-left: 2rem;
+  }
+  &__phone {
+    margin: 0.8rem;
+  }
+  &__email {
+    margin: 0.8rem;
+  }
+  &__social {
+    margin-right: 2rem;
+  }
+  &__icon {
+    margin: 0.8rem;
+  }
+}

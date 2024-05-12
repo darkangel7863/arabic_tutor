@@ -1,0 +1,28 @@
+{
+  "name": "arabic_tutor",
+  "version": "1.0.0",
+  "description": "Arabic Tutor website",
+  "main": "index.js",
+  "scripts": {
+    "watch:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/darkangel7863/arabic_tutor.git"
+  },
+  "keywords": [
+    "Arabic",
+    "Quran",
+    "arabic",
+    "teacher"
+  ],
+  "author": "Mohamed Elsayed Ahmed",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/darkangel7863/arabic_tutor/issues"
+  },
+  "homepage": "https://github.com/darkangel7863/arabic_tutor#readme",
+  "devDependencies": {
+    "node-sass": "^9.0.0"
+  }
+}

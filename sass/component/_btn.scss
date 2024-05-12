@@ -1,0 +1,29 @@
+.btn {
+  &,
+  &:link,
+  &:visited {
+    font-size: 2.4rem;
+    animation: all 3s ease-in-out;
+    padding: 2rem 3rem;
+    border-radius: 10rem;
+  }
+  &--primary {
+    background-color: $color-primary;
+    color: $color-white;
+
+    &:hover,
+    &:active {
+      background-color: $color-grey-light;
+      color: $color-primary-dark;
+    }
+  }
+  &--secondary {
+    background-color: $color-primary-light;
+    color: $color-primary;
+    &:hover,
+    &:active {
+      background-color: $color-grey-light;
+      color: $color-white;
+    }
+  }
+}

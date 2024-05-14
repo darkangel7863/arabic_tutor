@@ -30,20 +30,20 @@
     margin: 8rem 4rem;
 
     &--about:hover .nav__submenu--about {
-      opacity: 1;
+      display: block;
     }
     &--courses:hover .nav__submenu--courses {
-      opacity: 1;
+      display: block;
     }
     &--resources:hover .nav__submenu--resources {
-      opacity: 1;
+      display: block;
     }
     &--contact:hover .nav__submenu--contact {
-      opacity: 1;
+      display: block;
     }
   }
   &__submenu {
-    opacity: 0;
+    display: none;
     position: fixed;
     list-style: none;
     background-image: linear-gradient(

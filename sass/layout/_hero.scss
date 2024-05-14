@@ -1,9 +1,16 @@
-.hero-section {
+.section-hero {
   background-image: linear-gradient(
-      rgba($color-black, 0.5),
-      rgba($color-black, 0.5)
+      rgba($color-white, 0.5),
+      rgba($color-white, 0.5)
     ),
     url(../img/hero-img.jpg);
   background-size: cover;
   background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero__text-box {
+  width: 70%;
+  height: 45%;
 }

@@ -1,0 +1,43 @@
+.section-features {
+  margin-bottom: 10rem;
+}
+.features-container {
+  width: 100%;
+  display: flex;
+}
+.feature {
+  padding: 4rem 2rem;
+  flex: 0 0 33.3333%;
+  transition: all 0.2s ease-in;
+  &__title {
+    font-size: 3.8rem;
+    text-align: center;
+    margin-bottom: 3rem;
+    color: $color-white;
+  }
+  &__desc {
+    font-size: 2.4rem;
+    text-align: center;
+    color: $color-primary;
+  }
+  &--1 {
+    background-color: rgba($color-secondary, 0.8);
+  }
+  &--2 {
+    background-color: rgba($color-tertiary, 0.8);
+  }
+  &--3 {
+    background-color: rgba($color-primary-light, 0.8);
+  }
+  &:hover {
+    border-top: 1rem solid currentColor;
+    background-color: $color-white;
+
+    .feature__title {
+      color: $color-grey;
+    }
+    .feature__desc {
+      color: $color-secondary;
+    }
+  }
+}
